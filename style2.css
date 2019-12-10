@@ -3,7 +3,11 @@ font-family: 'Montserrat', sans-serif;              Head
 font-family: 'Open Sans Condensed', sans-serif;     Body
 */
 
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat+Alternates:300,300i,400,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim|Montserrat+Alternates:400,400i,700,700i,800,800i&display=swap');
+
+abbr {
+    text-decoration: none;
+}
 
 a:focus, a:hover {
     background-color: #0a0a47; 
@@ -21,7 +25,8 @@ body {
     font-size: 16px;
     font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: 1px;
-    margin: 0px 200px 20px 200px;
+    line-height: 1.5rem;
+    margin: -25px 200px 20px 200px;
 }
 
 header {
@@ -36,11 +41,24 @@ html {
  
 }
 
-h1, h2, h3 {
-    font-family: 'Julius Sans One', sans-serif;   
+h1, h2 {
+    color: white;
+    font-family: 'Megrim', cursive;    
+    font-size: 2em; 
+    font-weight: lighter;
     text-align: center;
+    text-shadow: black 3px 3px 3px;
 }
 
-h1, h2 {
-    font-size: 2em;
+h1 {
+    padding-top: 185px;
+}
+
+h2 {
+    padding-top: 25px;
+}
+
+h3 {
+    color: #abcbff;
+    text-shadow: #0a0a47 2px 2px;
 }
